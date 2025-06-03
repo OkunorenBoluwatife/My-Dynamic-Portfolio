@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Dynamic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Snapchat-756542450.jpg" alt="Profile" id="profile-img" height="200px" width="130px">
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 800;">
+            NAME: OKUNOREN BOLUWATIFE SAMUEL<br><br>
+            MATRIC N0: 24/15676
+        </p>
+        <h1>Hello, I'm Okunoren Boluwatife Samuel</h1>
+        <p>
+            A foward-thinking web developer known for his innovative design solutions and His consistent exceptional professional
+            demeanor.
+        </p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 style="text-decoration: underline;">About Me:</h2>
+            <p>
+                My name is Okunoren Boluwatife Samuel, I'm an aspiring Web Developer currently schooling at Caleb University, Imota, 
+                Lagos. I am a 100 level student in the Computer Science Department.
+            </p>
+        </section>
+
+        <section id="multimedia-showcase">
+            <h2 style="text-decoration: underline;">Multimedia Showcase</h2>
+            <h3 style="text-decoration: underline;">My Audio Greeting:</h3>
+            <audio controls>
+                <source src="Introductions.mp3" type="audio/mp3">
+            </audio>
+
+            <h3 style="text-decoration: underline;">A Quick Project Video:</h3>
+            <video controls width="440" height="240">
+                <source src="index.html - Visual Studio Code 2025-06-03 07-20-33.mp4" type="video/mp4">   
+            </video>
+        </section>
+
+        <section id="interactive-skills">
+            <h2 style="text-decoration: underline;">My Skills</h2>
+            <div class="skill-buttons">
+                <button class="skill-btn" data-skill="HTML">HTML</button>
+                <button class="skill-btn" data-skill="CSS">CSS</button>
+                <button class="skill-btn" data-skill="JavaScript">JAVASCRIPT</button>
+                <button class="skill-btn" data-skill="Python">PYTHON</button>
+            </div>
+            <p id="skill-description">Click a skill to learn more!</p>
+        </section>
+
+        <section id="portfolio-list">
+            <h2 style="text-decoration: underline;">My Projects</h2>
+            <div id="projects-container">
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Okunoren Boluwatife Samuel. All rights reserved.</p>
+        <button id="themeToggle">☀️/🌙</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
